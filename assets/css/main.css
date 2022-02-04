@@ -4109,3 +4109,10 @@ input, select, textarea {
 					}
 
 	}
+	.test{
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+	}
