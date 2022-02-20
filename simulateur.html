@@ -63,13 +63,13 @@
 										<p>Au cours de ce projet ma responsabilité était de générer un carte de manière procédural en utilisant du bruit de Perlin pour faire en sorte qu'elle ne se répète pas au fur à mesure que l'utilisateur avance sur la carte.</p>
 										<p>Pour ce faire j'ai dû générer une carte en utilisant du bruit de Perlin et une seed générer aléatoirement, modifier des mesh uniquement via du code, séparer la carte en "Chunk" pour aléger l'usage des ressources de l'utilisateur, par soucis d'optimisation j'ai aussi dû multithreadé la génération de la carte et pour finir j'ai aussi dû créer un shader triplanar.</p>
 										<h3>Maintenance</h3>
-										<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.</p>
+										<p>Implémentation procédural de forêts dans les Chunck</p>
 										<ul>
-											<li>Faucibus orci lobortis ac adipiscing integer.</li>
-											<li>Col accumsan arcu mi aliquet placerat.</li>
-											<li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
-											<li>Blandit massa non blandit tempor interdum.</li>
-											<li>Lacinia mattis arcu nascetur lobortis.</li>
+											<li>Utilisation de Random.Range pour determiné la position en X et Z de la forêt.</li>
+											<li>Suite à ceci utilisation de Raycast afin de déterminer la hauteur en Y de la carte en les points X et Y décidé précédemment.</li>
+											<li>Dans le cas où l'arbre apparait en dessous du niveau de l'eau un nouveau Raycast sera envoyé afin de mettre ce dernier sur le terre ferme à la gauche de la position de base.</li>
+											<li>Implémentation d'une liste de GameObject pour le choix des abres utilisé afin d'amélioré la diversité des éléments.</li>
+											<li>Mise en place d'un int publique perméttant de modifier au désir des autres programmeurs le nombre d'arbres qui apparaissent patr chunck.</li>
 										</ul>
 									</section>
 
