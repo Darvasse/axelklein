@@ -17,12 +17,11 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">Landed</a></h1>
+					<h1 id="logo"><a href="index.html">Menu Principal</a></h1>
 					<nav id="nav">
 						<ul>
-							<li><a href="index.html">Home</a></li>
 							<li>
-								<a href="#">Layouts</a>
+								<a href="#">Projets</a>
 								<ul>
 									<li><a href="simulateur.html">Simulateur de vol</a></li>
 									<li><a href="projet.html">Projet</a></li>
@@ -72,11 +71,12 @@
 										</ul>
 										<p>Lien vers la maintenance: <a href="https://github.com/Paracetamol56/SkyAirlineCorporation/tree/MaintenanceAxel">Cliquez-ici</a></p>
 										<h4>Veille technologique</h4>
+										<p>Pour faire ce projet nous avions opté pour Unity car, bien que moins puissant que Unreal Engine, il est plus simple d'utilisation et nous avions déjà l'expérience de trois projet sur ce moteur de jeux</p>
 										<p>Pour faire la génération procédural des arbres j'ai dû me renseigné sur le fonctionnement des Raycast  et ainsi j'ai appris beaucoup de choses sur la variété retour que ces derniers peuvent faire.</p>
 										<p>Une question que l'on peut se poser : Pourquoi utiliser des Raycast et pas simplement faire apparaitre les arbres durant le calcul de la carte pour ainsi pouvoir les faire apparaitre sur tous les chunck ? J'ai pris la décision d'utiliser les Raycast pour deux raisons : </p>
 										<p>1- Les Raycast nous force au fait qu'un collider soit appliqué sur le mesh et compte tenu du fait que la carte ne génère un collider uniquement si le joueur est proche cela permet d'éviter de surcharger la carte à des endroits que le joueur a peu de chance de visiter</p>
 										<p>2- Cela permet de séparer les tâches et ainsi d'éviter d'endommager des parties déjà fonctionel du code précédent</p>
-										<p>Dans le cas présent j'ai utilisé l'élément .point.transform pour obtenir le point précis sur le quel le Raycast avais touché la carte </p>
+										<p>Dans le cas présent j'ai utilisé l'élément .point.transform pour obtenir le point précis sur le quel le Raycast avais touché la carte. Voici également la documentation que j'ai utilisé pour faire cette maintenance: <a href="https://docs.unity3d.com/ScriptReference/Physics.Raycast.html">Documentation officiel Unity Raycast</a> </p>
 									</section>
 
 							</div>
