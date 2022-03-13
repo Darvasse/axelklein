@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Right Sidebar - Landed by HTML5 UP</title>
+		<title>Analyse de sentiment sur Twitter</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -46,20 +46,23 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2>Right Sidebar</h2>
-							<p>Ipsum dolor feugiat aliquam tempus sed magna lorem consequat accumsan</p>
+							<h2>Analyse de sentiment sur Twitter</h2>
+							<p>Analyse de sentiment sur un hashtag donné en utilisant NLTK</p>
 						</header>
 						<div class="row gtr-150">
-							<div class="col-8 col-12-medium">
-
-								<!-- Content -->
+							<div class="row gtr-150 test">
+								<div class="col-8 col-12-medium imp-medium ">
+								
+									<!-- Content -->
 									<section id="content">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-										<h3>Dolore Amet Consequat</h3>
-										<p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at magna consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam.</p>
-										<p>Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam eget lobortis purus. Phasellus vitae tortor non est placerat tristique.</p>
-										<h3>Sed Magna Ornare</h3>
+										<a class="image fit"><img src="images/gifTwitter.gif" alt="" /></a>
+										<h3>Bot Twitter d'analyse de sentiment</h3>
+										<p>Au cours de mon parcours au Cégep de Matane un de mes camarades avait créer un bot qui récupérait des Tweet et qui essayait d'analyser l'état de la discussion. Avec son accors j'ai décidé d'améliorer le bot avec la bibliothèque NLTK qui peut deviner les émotions qui dirige la discussion.</p>
+										<p>Sur ce projet la manière qu'avait le bot de deviné les sentiment n'était car il prenait tout les mots en comptes ce qui rendait le score plus neutre que les véritables intensions du créateur du Tweet</p>
+										
+										<h3>Maintenance</h3>
 										<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.</p>
+										<p>J'ai donc utilisé une liste de 'stopwords' pour néttoyer les symbôles inutiles pour l'analyse de sentiment. J'ai également rajouter certains mots inutiles à l'analyse</p>
 										<ul>
 											<li>Faucibus orci lobortis ac adipiscing integer.</li>
 											<li>Col accumsan arcu mi aliquet placerat.</li>
@@ -67,36 +70,11 @@
 											<li>Blandit massa non blandit tempor interdum.</li>
 											<li>Lacinia mattis arcu nascetur lobortis.</li>
 										</ul>
+										<p>Lien vers la maintenance: <a href="#">Cliquez-ici</a></p>
 									</section>
-
+								</div>
 							</div>
-							<div class="col-4 col-12-medium">
-
-								<!-- Sidebar -->
-									<section id="sidebar">
-										<section>
-											<h3>Magna Feugiat</h3>
-											<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit..</p>
-											<footer>
-												<ul class="actions">
-													<li><a href="#" class="button">Learn More</a></li>
-												</ul>
-											</footer>
-										</section>
-										<hr />
-										<section>
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-											<h3>Amet Lorem Tempus</h3>
-											<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-											<footer>
-												<ul class="actions">
-													<li><a href="#" class="button">Learn More</a></li>
-												</ul>
-											</footer>
-										</section>
-									</section>
-
-							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -104,12 +82,10 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
-						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="http://discord.com/users/203272702990090240" class="icon brands alt fa-discord"><span class="label">Discord</span></a></li>
+						<li><a href="https://www.linkedin.com/in/axel-klein/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/Darvasse" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto:axelklein2@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
