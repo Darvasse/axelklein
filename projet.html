@@ -55,22 +55,26 @@
 								
 									<!-- Content -->
 									<section id="content">
-										<a class="image fit"><img src="images/gifTwitter.gif" alt="" /></a>
+										<a class="image fit"><img src="images/pic03.png" alt="" /></a>
 										<h3>Bot Twitter d'analyse de sentiment</h3>
 										<p>Au cours de mon parcours au Cégep de Matane un de mes camarades avait créer un bot qui récupérait des Tweet et qui essayait d'analyser l'état de la discussion. Avec son accors j'ai décidé d'améliorer le bot avec la bibliothèque NLTK qui peut deviner les émotions qui dirige la discussion.</p>
-										<p>Sur ce projet la manière qu'avait le bot de deviné les sentiment n'était car il prenait tout les mots en comptes ce qui rendait le score plus neutre que les véritables intensions du créateur du Tweet</p>
-										
+										<p>Sur ce projet la manière qu'avait le bot de deviner les sentiment n'était car il prenait tout les mots en comptes ce qui rendait le score plus neutre que les véritables intensions du créateur du Tweet</p>
 										<h3>Maintenance</h3>
-										<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.</p>
+										<p>Le but de la maintenance est de changer la manière dont le bot fait ses décisions sur </p>
 										<p>J'ai donc utilisé une liste de 'stopwords' pour néttoyer les symbôles inutiles pour l'analyse de sentiment. J'ai également rajouter certains mots inutiles à l'analyse</p>
 										<ul>
-											<li>Faucibus orci lobortis ac adipiscing integer.</li>
-											<li>Col accumsan arcu mi aliquet placerat.</li>
-											<li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
-											<li>Blandit massa non blandit tempor interdum.</li>
-											<li>Lacinia mattis arcu nascetur lobortis.</li>
+											<li>Installation de NLTK dans le projet.</li>
+											<li>Nettoyage du texte reçu de Twitter</li>
+											<li>Ajouts d'autres 'stopwords'.</li>
+											<li>Récupération des scores de polarité pour savoir l'état des snetiments du hashtag.</li>
+											<li>Recalibrage de l'interprétation obtenu.</li>
 										</ul>
-										<p>Lien vers la maintenance: <a href="#">Cliquez-ici</a></p>
+										<p>Lien vers la maintenance: <a href="https://github.com/Darvasse/Alphonse_Twitter_Bot">Cliquez-ici</a></p>
+										<h4>Veille technologique</h4>
+										<p>Le bot est développé en python car il s'agit, pour nous, d'une manière plus facile de faire du Web qu'avec Php, avec lequel nous avons certes de l'expérience mais moins d'aisance</p>
+										<p>Pour changer la manière de calculer les sentiments j'ai du apprendre la bibliothèque NLTK de A à Z car je ne la connaissais absoluement pas</p>
+										<p>J'ai découvert les stopwords et je les ai utilisé pour néttoyer le text provenant de Twitter afin de mieux garder ce qui nous interesse sinon les mots les plus utilisé était souvent : the, in, a ,...</p>
+										<p>Je me suis renseigné sur la 'tokenisation' et sur le 'sentiment analyzer'</p>
 									</section>
 								</div>
 							</div>
