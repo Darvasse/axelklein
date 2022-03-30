@@ -4152,16 +4152,19 @@ input, select, textarea {
 		display: flex;
 		align-items:center;
 		justify-content: space-between;
+		margin: 0 0 2em 0;
 		
 	}
 	.progressbar{
 		display: flex;
 		align-items:center;
+		margin-left: 1em;
 	}
 	.progressbarText{
 		display: flex;
-		align-items:center;
+		align-items:baseline;
 		justify-content: center;
 		align-content: center;
+		margin: 0;
 	}
 	
